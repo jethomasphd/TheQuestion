@@ -1,10 +1,25 @@
 # The Question That Remains
 
-A cinematic documentary workbench with an assembled director's review cut, authentic archival recordings from eight speakers, original narration, six generated symbolic scenes, and three original instrumental score movements. The 90-second trailer and 60-second portrait cut are separately composed. Read [the production report](docs/director_cut_report.md), [the brief](docs/FILM_BRIEF.md), and [research](docs/source_research.md).
+A documentary workbench whose current edit, **In Their Own Words**, replaces the earlier AI-heavy assembly with six sustained archival passages. Bono and Gay Byrne, Francis Collins, Stephen Fry, Jim Carrey, Stephen Curry, and Martin Luther King Jr. carry the film in their own voices. No generated narration, generated imagery, or added music is used. Read [the current edit report](docs/witness_cut_report.md), [the brief](docs/FILM_BRIEF.md), and [research](docs/source_research.md).
 
 The director's cut is a completed editorial assembly for review. Its permanent legend says **REVIEW CUT · RIGHTS PENDING**. The user's October 9 production approval authorizes acquisition and assembly; it does not establish broadcaster or estate licenses. Public release remains gated. Original source recordings, generated assets and alignment files stay local and out of Git.
 
-## Director's cut
+## Current edit: In Their Own Words
+
+With the authorized local recordings, National Archives photograph, fonts, and alignment files present:
+
+```sh
+python scripts/witness_cut.py --output outputs/witness_cut
+python scripts/witness_cut.py --output outputs/witness_cut --cut trailer
+python scripts/witness_cut.py --output outputs/witness_cut --cut vertical
+python scripts/package_witness.py --output outputs/witness_cut --upscale
+```
+
+Source windows are in `data/witness_edit.json`. Caption alignments are local to `work/reedit/transcripts`. Each source passage runs continuously at its recorded speed. Names and dates appear briefly; the main film preserves source aspect ratios. The King sequence pairs actual 1968 sermon audio with a separately dated 1963 government photograph. The 90-second preview preserves Bono's complete opening exchange; the portrait cut reframes one continuous Carrey passage around his face. Packaging adds visible captions to the previews, an offline player, and the optional conventional upscale. These are editorial review copies with a permanent small review legend. The shared release gate is still evaluated and reported; no human approval is manufactured.
+
+Intermediate renders are cached in `work/reedit`. Remove the affected scene cache before changing a source window or overlay. Rendered media, source files, and signed acquisition URLs stay out of Git. The earlier generated-media version remains in history and is superseded creatively.
+
+## Earlier director's cut
 
 With the local assets and alignment files listed in the screening package's source manifest present:
 
