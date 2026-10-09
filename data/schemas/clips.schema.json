@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "clip_id",
+      "source_id",
+      "speaker",
+      "asset_id",
+      "media_path",
+      "source_sha256",
+      "source_in_ms",
+      "source_out_ms",
+      "verbatim_transcript",
+      "context_before",
+      "context_after",
+      "claim_class",
+      "narrative_function",
+      "verification_status",
+      "rights_status",
+      "rights_evidence_path",
+      "context_review_path",
+      "acquisition_evidence_path",
+      "reviewer",
+      "publish_approved",
+      "editorial_notes",
+      "caption_cues"
+    ],
+    "properties": {
+      "clip_id": {
+        "type": "string"
+      },
+      "source_id": {
+        "type": "string"
+      },
+      "speaker": {
+        "type": "string"
+      },
+      "asset_id": {
+        "type": "string"
+      },
+      "media_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "source_sha256": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "source_in_ms": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "source_out_ms": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "verbatim_transcript": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "context_before": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "context_after": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "claim_class": {
+        "enum": [
+          "christian_ethics",
+          "critical_questioning",
+          "christological_argument",
+          "explicit_jesus_testimony",
+          "context_only",
+          "general_faith"
+        ]
+      },
+      "narrative_function": {
+        "type": "string"
+      },
+      "verification_status": {
+        "enum": [
+          "unverified",
+          "source_confirmed",
+          "transcript_verified",
+          "context_verified"
+        ]
+      },
+      "rights_status": {
+        "enum": [
+          "unknown",
+          "permission_requested",
+          "cleared",
+          "public_domain_verified",
+          "legal_review_required",
+          "rejected"
+        ]
+      },
+      "rights_evidence_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "context_review_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "acquisition_evidence_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reviewer": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "publish_approved": {
+        "type": "boolean"
+      },
+      "editorial_notes": {
+        "type": "string"
+      },
+      "caption_cues": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start_ms",
+            "end_ms",
+            "text"
+          ],
+          "properties": {
+            "start_ms": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end_ms": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

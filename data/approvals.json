@@ -1,0 +1,20 @@
+{
+  "publication_approved": false,
+  "approver_role": null,
+  "approver": null,
+  "approved_at": null,
+  "input_sha256": null,
+  "evidence_path": null,
+  "checks": {
+    "title": false,
+    "paper_edit": false,
+    "interpretations": false,
+    "scripture_translation": false,
+    "credits": false,
+    "final_cut": false,
+    "captions": false,
+    "listening": false,
+    "audio_measurements": false,
+    "visual_qc": false
+  }
+}

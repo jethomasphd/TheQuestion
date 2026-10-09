@@ -1,0 +1,14 @@
+[
+  {
+    "path": "assets/design/fonts/EBGaramond.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond%5Bwght%5D.ttf",
+    "sha256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027",
+    "license_path": "assets/design/fonts/EBGaramond-OFL.txt"
+  },
+  {
+    "path": "assets/design/fonts/Manrope.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "license_path": "assets/design/fonts/Manrope-OFL.txt"
+  }
+]

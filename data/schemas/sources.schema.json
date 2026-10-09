@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "source_id",
+      "speaker",
+      "role",
+      "event",
+      "event_date",
+      "date_status",
+      "original_producer",
+      "source_url",
+      "original_master_url",
+      "verification_status",
+      "width",
+      "height",
+      "fps",
+      "duration_ms",
+      "research_urls",
+      "research_notes",
+      "accessed_date"
+    ],
+    "properties": {
+      "source_id": {
+        "type": "string"
+      },
+      "speaker": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "event": {
+        "type": "string"
+      },
+      "event_date": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "date_status": {
+        "type": "string"
+      },
+      "original_producer": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "source_url": {
+        "type": "string"
+      },
+      "original_master_url": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "verification_status": {
+        "enum": [
+          "unverified",
+          "source_confirmed",
+          "transcript_verified",
+          "context_verified"
+        ]
+      },
+      "width": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "height": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "fps": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "exclusiveMinimum": 0
+      },
+      "duration_ms": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "research_urls": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "research_notes": {
+        "type": "string"
+      },
+      "accessed_date": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}

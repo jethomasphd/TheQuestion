@@ -1,0 +1,22 @@
+{
+  "master": [
+    {"kind":"archive","source":"bono","source_in":2279.166667,"source_out":2362.333333},
+    {"kind":"title","duration":4},
+    {"kind":"archive","source":"collins_live","source_in":1495.291667,"source_out":1660.041667},
+    {"kind":"archive","source":"fry","source_in":2.875,"source_out":46.208333},
+    {"kind":"black","duration":1.5},
+    {"kind":"archive","source":"carrey","source_in":125.958333,"source_out":233.583333},
+    {"kind":"archive","source":"curry","source_in":24.791667,"source_out":58.208333},
+    {"kind":"archive","source":"king","source_in":1760.875,"source_out":1843.666667},
+    {"kind":"ending","duration":7},
+    {"kind":"credits","duration":9}
+  ],
+  "trailer": [
+    {"kind":"archive","source":"bono","source_in":2279.166667,"source_out":2362.333333},
+    {"kind":"ending","duration":6.833333}
+  ],
+  "vertical": [
+    {"kind":"archive","source":"carrey","source_in":176.166667,"source_out":233.583333},
+    {"kind":"title","duration":2.583333}
+  ]
+}

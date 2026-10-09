@@ -1,0 +1,20 @@
+{
+  "bono": [
+    {"from":2302.0,"to":2302.1,"text":"he"},
+    {"from":2302.98,"to":2303.24,"text":"He"},
+    {"from":2312.96,"to":2313.88,"text":"Not?"},
+    {"from":2314.90,"to":2315.12,"text":"Nuts."},
+    {"from":2315.12,"to":2315.44,"text":"Again,"},
+    {"from":2315.44,"to":2316.06,"text":"forget"},
+    {"from":2355.26,"to":2356.16,"text":"I've"}
+  ],
+  "carrey": [
+    {"from":208.68,"to":209.55,"text":"which all of you felt."}
+  ],
+  "king": [
+    {"from":1781.78,"to":1782.12,"text":"a servant."}
+  ],
+  "collins_live": [
+    {"find":"the","after":1629,"before":1634,"text":"to","require_next":"Africa"}
+  ]
+}

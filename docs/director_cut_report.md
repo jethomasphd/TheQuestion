@@ -1,0 +1,15 @@
+# Director's cut: The Question That Remains
+
+The new editorial assembly replaces the silent placeholder animatic with authentic archival voices, original narration, six clearly labeled AI-generated symbolic shots, and three generated instrumental score movements. Its six movements are Power, Knowledge, The Wound, Forgiveness, Victory, and The Reversal. A silent closing uses Mark 8:29a, World English Bible Classic.
+
+The filmmaker's argument is about the limits of achievement and the invitation to service. It does not use prominence as proof of religious truth. Collins, Bono and Curry speak personally about faith; Reagan makes a Christological statement; Carrey discusses forgiveness; King and Obama address service; Fry objects to a creator in light of suffering. The interviews were recorded independently. No reaction shot implies that any speaker heard another person's words. King is heard over original typography; Collins's producer animation remains recognizable as animation.
+
+The user's production authorization on 2026-10-09 was: “these are all public sources you have my approval, create a masterpiece”. This authorizes production and acquisition. It has not been converted into fictitious estate, broadcaster, or producer licensing evidence. The exact original approval files remain unchanged. Every frame of this review cut retains a visible rights-pending legend. No public film upload has been made.
+
+The Reagan Library recording identifies unrestricted NARA material. The Obama White House archive explicitly marks the Easter Breakfast video public domain. RTÉ, BioLogos, Homeboy Industries, NBA/broadcaster and King Estate rights remain recorded as requiring review. The Bono, Curry and King files are complete-program reposts; obtaining rights-holder masters remains desirable. The source ledger documents this distinction.
+
+Speech was aligned with two local speech-recognition passes and compared with available official transcripts, producer captions and surrounding context. Corrections include Obama's missing service phrases and King's repeated word “serve.” AI narration uses a preset narrator, with no historical voice cloning. Automated decoding, timing, loudness and frame checks do not replace a human listening pass, which remains pending.
+
+The score and symbolic scenes were generated in the user's connected Runway account. [Runway's commercial-use policy](https://help.runwayml.com/hc/en-us/articles/21668707517587-Can-I-use-the-content-I-made-in-Runway-for-commercial-purposes) permits use of generated outputs without a noncommercial restriction from Runway. This does not establish third-party archive rights or guarantee copyright protection for generated material. Generation task IDs and prompts are retained in the asset manifest.
+
+The included 4K version is a delivery canvas upscale from the 1080p composition; source fidelity is not misrepresented as native 4K. All source recordings and generated media remain excluded from Git. The public repository contains the renderer, declarative edit and documentation.

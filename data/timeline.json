@@ -1,0 +1,1034 @@
+{
+  "title": "The Question That Remains",
+  "fps": 24,
+  "audio": "intentional_silence",
+  "cuts": {
+    "master": {
+      "width": 1920,
+      "height": 1080,
+      "duration_ms": 495000,
+      "segments": [
+        {
+          "segment_id": "S01",
+          "start_ms": 0,
+          "duration_ms": 6000,
+          "movement": "THE QUESTION",
+          "kind": "silence",
+          "title": "",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        },
+        {
+          "segment_id": "S02",
+          "start_ms": 6000,
+          "duration_ms": 12000,
+          "movement": "THE QUESTION",
+          "kind": "card",
+          "title": "What is greatness?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "S03",
+          "start_ms": 18000,
+          "duration_ms": 10000,
+          "movement": "THE QUESTION",
+          "kind": "card",
+          "title": "What survives death?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "S04",
+          "start_ms": 28000,
+          "duration_ms": 10000,
+          "movement": "THE QUESTION",
+          "kind": "card",
+          "title": "What is truth?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S05",
+          "start_ms": 38000,
+          "duration_ms": 12000,
+          "movement": "THE QUESTION",
+          "kind": "title",
+          "title": "THE QUESTION\nTHAT REMAINS",
+          "body": "Power. Knowledge. Art. Victory.\nAn unfinished encounter with Jesus.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S06",
+          "start_ms": 50000,
+          "duration_ms": 10000,
+          "movement": "POWER",
+          "kind": "chapter",
+          "title": "01 / POWER",
+          "body": "The reach of a voice.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "S07",
+          "start_ms": 60000,
+          "duration_ms": 15000,
+          "movement": "POWER",
+          "kind": "placeholder",
+          "title": "John F. Kennedy",
+          "body": "Christmas-tree remarks / 1962\nContext only: public language of peace.",
+          "clip_id": "JFK_TREE_001",
+          "citation": "JFK Library • JFKWHA-155-008",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "S08",
+          "start_ms": 75000,
+          "duration_ms": 20000,
+          "movement": "POWER",
+          "kind": "placeholder",
+          "title": "Ronald Reagan",
+          "body": "Christmas radio address / 1983\nProposed focus: his distinction between teacher and divine Son.",
+          "clip_id": "REAGAN_XMAS_001",
+          "citation": "Reagan Library • 24 December 1983",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "S09",
+          "start_ms": 95000,
+          "duration_ms": 10000,
+          "movement": "POWER",
+          "kind": "card",
+          "title": "Does influence\nsettle what is true?",
+          "body": "A person’s stature is not proof of a belief.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "S10",
+          "start_ms": 105000,
+          "duration_ms": 15000,
+          "movement": "POWER",
+          "kind": "placeholder",
+          "title": "George W. Bush",
+          "body": "1999 debate / acquisition pending\nProposed focus: a personal account of changed conviction.",
+          "clip_id": "BUSH_DEBATE_001",
+          "citation": "C-SPAN • lead in source ledger",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "S11",
+          "start_ms": 120000,
+          "duration_ms": 10000,
+          "movement": "POWER",
+          "kind": "card",
+          "title": "A claim is an invitation\nto listen carefully.",
+          "body": "And to ask what kind of claim it is.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S12",
+          "start_ms": 130000,
+          "duration_ms": 10000,
+          "movement": "KNOWLEDGE",
+          "kind": "chapter",
+          "title": "02 / KNOWLEDGE",
+          "body": "The reach of an explanation.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "S13",
+          "start_ms": 140000,
+          "duration_ms": 25000,
+          "movement": "KNOWLEDGE",
+          "kind": "placeholder",
+          "title": "Francis Collins",
+          "body": "A Testimony / recording date unverified\nProposed focus: a physician’s account of belief.",
+          "clip_id": "COLLINS_TESTIMONY_001",
+          "citation": "BioLogos • A Testimony",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "S14",
+          "start_ms": 165000,
+          "duration_ms": 10000,
+          "movement": "KNOWLEDGE",
+          "kind": "card",
+          "title": "Does explanation\nexhaust meaning?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "S15",
+          "start_ms": 175000,
+          "duration_ms": 15000,
+          "movement": "KNOWLEDGE",
+          "kind": "placeholder",
+          "title": "John Lennox",
+          "body": "Resurrection lecture / source unverified\nAn argument to examine, not a scientific consensus.",
+          "clip_id": "LENNOX_RESURRECTION_001",
+          "citation": "Original lecture and permissions needed",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "S16",
+          "start_ms": 190000,
+          "duration_ms": 10000,
+          "movement": "KNOWLEDGE",
+          "kind": "card",
+          "title": "Belief. Argument. Doubt.",
+          "body": "Different ways of approaching the question.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S17",
+          "start_ms": 200000,
+          "duration_ms": 10000,
+          "movement": "ART",
+          "kind": "chapter",
+          "title": "03 / ART",
+          "body": "What remains when the applause ends?",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "ripple"
+        },
+        {
+          "segment_id": "S18",
+          "start_ms": 210000,
+          "duration_ms": 20000,
+          "movement": "ART",
+          "kind": "placeholder",
+          "title": "Bono",
+          "body": "The Meaning of Life / 2013 broadcast lead\nProposed focus: the identity of Jesus.",
+          "clip_id": "BONO_MEANING_001",
+          "citation": "RTÉ • full interview requested in acquisition plan",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "ripple"
+        },
+        {
+          "segment_id": "S19",
+          "start_ms": 230000,
+          "duration_ms": 20000,
+          "movement": "ART",
+          "kind": "placeholder",
+          "title": "Stephen Fry",
+          "body": "The Meaning of Life / 2015 broadcast lead\nThe problem of suffering; a challenge about God.",
+          "clip_id": "FRY_QUESTION_001",
+          "citation": "RTÉ Archives • broader theism, not conversion",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "ripple"
+        },
+        {
+          "segment_id": "S20",
+          "start_ms": 250000,
+          "duration_ms": 10000,
+          "movement": "ART",
+          "kind": "card",
+          "title": "Let the objection stand.",
+          "body": "The next voice is not an answer placed in his mouth.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        },
+        {
+          "segment_id": "S21",
+          "start_ms": 260000,
+          "duration_ms": 15000,
+          "movement": "ART",
+          "kind": "placeholder",
+          "title": "Jim Carrey",
+          "body": "Homeboy Industries / 2017 lead unverified\nProposed focus: suffering and forgiveness.",
+          "clip_id": "CARREY_HOMEBOY_001",
+          "citation": "Full recording, context and authorization needed",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "ripple"
+        },
+        {
+          "segment_id": "S22",
+          "start_ms": 275000,
+          "duration_ms": 10000,
+          "movement": "ART",
+          "kind": "card",
+          "title": "Can forgiveness begin\nwhere deserving ends?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S23",
+          "start_ms": 285000,
+          "duration_ms": 10000,
+          "movement": "VICTORY",
+          "kind": "chapter",
+          "title": "04 / VICTORY",
+          "body": "Beyond the result.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "arena"
+        },
+        {
+          "segment_id": "S24",
+          "start_ms": 295000,
+          "duration_ms": 15000,
+          "movement": "VICTORY",
+          "kind": "placeholder",
+          "title": "Stephen Curry",
+          "body": "MVP speech / 2015 lead\nProposed focus: faith within achievement.",
+          "clip_id": "CURRY_MVP_001",
+          "citation": "NBA / original speech and permissions needed",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "arena"
+        },
+        {
+          "segment_id": "S25",
+          "start_ms": 310000,
+          "duration_ms": 25000,
+          "movement": "VICTORY",
+          "kind": "placeholder",
+          "title": "Scottie Scheffler",
+          "body": "Masters press conference / 9 April 2024\nProposed focus: what defines him.",
+          "clip_id": "SCHEFFLER_MASTERS_001",
+          "citation": "ASAP Sports • official transcript, page 4",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "arena"
+        },
+        {
+          "segment_id": "S26",
+          "start_ms": 335000,
+          "duration_ms": 15000,
+          "movement": "VICTORY",
+          "kind": "card",
+          "title": "Who are we\nwhen winning is over?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "arena"
+        },
+        {
+          "segment_id": "S27",
+          "start_ms": 350000,
+          "duration_ms": 10000,
+          "movement": "THE REVERSAL",
+          "kind": "chapter",
+          "title": "05 / THE REVERSAL",
+          "body": "Another measure of greatness.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "steps"
+        },
+        {
+          "segment_id": "S28",
+          "start_ms": 360000,
+          "duration_ms": 25000,
+          "movement": "THE REVERSAL",
+          "kind": "placeholder",
+          "title": "Martin Luther King Jr.",
+          "body": "The Drum Major Instinct / 4 February 1968\nProposed focus: ambition reoriented toward service.",
+          "clip_id": "KING_DRUM_001",
+          "citation": "King Institute • recording and Estate clearance pending",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "steps"
+        },
+        {
+          "segment_id": "S29",
+          "start_ms": 385000,
+          "duration_ms": 10000,
+          "movement": "THE REVERSAL",
+          "kind": "card",
+          "title": "What if greatness\nmoves toward the other?",
+          "body": "Original editorial question",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "steps"
+        },
+        {
+          "segment_id": "S30",
+          "start_ms": 395000,
+          "duration_ms": 20000,
+          "movement": "THE REVERSAL",
+          "kind": "placeholder",
+          "title": "The sermon continues",
+          "body": "Preserve King’s critique of status and exclusion.\nKeep the social meaning of service intact.",
+          "clip_id": "KING_DRUM_001",
+          "citation": "Full context must be reviewed before selecting an excerpt",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "steps"
+        },
+        {
+          "segment_id": "S31",
+          "start_ms": 415000,
+          "duration_ms": 10000,
+          "movement": "THE REVERSAL",
+          "kind": "card",
+          "title": "To feed. To visit.\nTo make room.",
+          "body": "Editorial response to the service theme; not a quotation.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S32",
+          "start_ms": 425000,
+          "duration_ms": 10000,
+          "movement": "THE REVERSAL",
+          "kind": "card",
+          "title": "What would a life\nmeasured by love look like?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S33",
+          "start_ms": 435000,
+          "duration_ms": 10000,
+          "movement": "THE REVERSAL",
+          "kind": "silence",
+          "title": "",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        },
+        {
+          "segment_id": "S34",
+          "start_ms": 445000,
+          "duration_ms": 6000,
+          "movement": "THE INVITATION",
+          "kind": "card",
+          "title": "The question turns\ntoward us.",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        },
+        {
+          "segment_id": "S35",
+          "start_ms": 451000,
+          "duration_ms": 14000,
+          "movement": "THE INVITATION",
+          "kind": "quote",
+          "title": "“But who do you\nsay that I am?”",
+          "body": "Mark 8:29a • World English Bible Classic\nJesus addressing his disciples; an excerpt from the verse.",
+          "clip_id": null,
+          "citation": "eBible.org • Mark 8 • public-domain text",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS",
+            "SCRIPTURE_WEB"
+          ],
+          "quote_asset_id": "SCRIPTURE_WEB",
+          "motif": "void"
+        },
+        {
+          "segment_id": "S36",
+          "start_ms": 465000,
+          "duration_ms": 8000,
+          "movement": "THE INVITATION",
+          "kind": "silence",
+          "title": "",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        },
+        {
+          "segment_id": "S37",
+          "start_ms": 473000,
+          "duration_ms": 10000,
+          "movement": "THE INVITATION",
+          "kind": "title",
+          "title": "THE QUESTION\nREMAINS.",
+          "body": "A work in progress",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "S38",
+          "start_ms": 483000,
+          "duration_ms": 12000,
+          "movement": "THE INVITATION",
+          "kind": "credits",
+          "title": "Sources. Voices. Responsibility.",
+          "body": "Research: King Institute / Reagan Library / BioLogos\nRTÉ / ASAP Sports / eBible.org\nNo archival media or recorded voices appear in this animatic.\nOriginal motion design. Silence is intentional.\nComplete citations and unresolved rights: accompanying source ledger.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        }
+      ]
+    },
+    "trailer": {
+      "width": 1920,
+      "height": 1080,
+      "duration_ms": 90000,
+      "segments": [
+        {
+          "segment_id": "C01",
+          "start_ms": 0,
+          "duration_ms": 7000,
+          "movement": "THE QUESTION",
+          "kind": "card",
+          "title": "What is greatness?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "C02",
+          "start_ms": 7000,
+          "duration_ms": 7000,
+          "movement": "THE QUESTION",
+          "kind": "title",
+          "title": "THE QUESTION\nTHAT REMAINS",
+          "body": "Power. Knowledge. Art. Victory.\nAn unfinished encounter with Jesus.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "C03",
+          "start_ms": 14000,
+          "duration_ms": 5000,
+          "movement": "POWER",
+          "kind": "chapter",
+          "title": "01 / POWER",
+          "body": "The reach of a voice.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "C04",
+          "start_ms": 19000,
+          "duration_ms": 8000,
+          "movement": "POWER",
+          "kind": "placeholder",
+          "title": "Ronald Reagan",
+          "body": "Christmas radio address / 1983\nProposed focus: his distinction between teacher and divine Son.",
+          "clip_id": "REAGAN_XMAS_001",
+          "citation": "Reagan Library • 24 December 1983",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "C05",
+          "start_ms": 27000,
+          "duration_ms": 8000,
+          "movement": "KNOWLEDGE",
+          "kind": "placeholder",
+          "title": "Francis Collins",
+          "body": "A Testimony / recording date unverified\nProposed focus: a physician’s account of belief.",
+          "clip_id": "COLLINS_TESTIMONY_001",
+          "citation": "BioLogos • A Testimony",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "C06",
+          "start_ms": 35000,
+          "duration_ms": 8000,
+          "movement": "ART",
+          "kind": "placeholder",
+          "title": "Bono",
+          "body": "The Meaning of Life / 2013 broadcast lead\nProposed focus: the identity of Jesus.",
+          "clip_id": "BONO_MEANING_001",
+          "citation": "RTÉ • full interview requested in acquisition plan",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "ripple"
+        },
+        {
+          "segment_id": "C07",
+          "start_ms": 43000,
+          "duration_ms": 8000,
+          "movement": "ART",
+          "kind": "placeholder",
+          "title": "Stephen Fry",
+          "body": "The Meaning of Life / 2015 broadcast lead\nThe problem of suffering; a challenge about God.",
+          "clip_id": "FRY_QUESTION_001",
+          "citation": "RTÉ Archives • broader theism, not conversion",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "ripple"
+        },
+        {
+          "segment_id": "C08",
+          "start_ms": 51000,
+          "duration_ms": 8000,
+          "movement": "VICTORY",
+          "kind": "placeholder",
+          "title": "Scottie Scheffler",
+          "body": "Masters press conference / 9 April 2024\nProposed focus: what defines him.",
+          "clip_id": "SCHEFFLER_MASTERS_001",
+          "citation": "ASAP Sports • official transcript, page 4",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "arena"
+        },
+        {
+          "segment_id": "C09",
+          "start_ms": 59000,
+          "duration_ms": 10000,
+          "movement": "THE REVERSAL",
+          "kind": "placeholder",
+          "title": "Martin Luther King Jr.",
+          "body": "The Drum Major Instinct / 4 February 1968\nProposed focus: ambition reoriented toward service.",
+          "clip_id": "KING_DRUM_001",
+          "citation": "King Institute • recording and Estate clearance pending",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "steps"
+        },
+        {
+          "segment_id": "C10",
+          "start_ms": 69000,
+          "duration_ms": 11000,
+          "movement": "THE INVITATION",
+          "kind": "quote",
+          "title": "“But who do you\nsay that I am?”",
+          "body": "Mark 8:29a • World English Bible Classic\nJesus addressing his disciples; an excerpt from the verse.",
+          "clip_id": null,
+          "citation": "eBible.org • Mark 8 • public-domain text",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS",
+            "SCRIPTURE_WEB"
+          ],
+          "quote_asset_id": "SCRIPTURE_WEB",
+          "motif": "void"
+        },
+        {
+          "segment_id": "C11",
+          "start_ms": 80000,
+          "duration_ms": 6000,
+          "movement": "THE INVITATION",
+          "kind": "title",
+          "title": "THE QUESTION\nREMAINS.",
+          "body": "A work in progress",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "C12",
+          "start_ms": 86000,
+          "duration_ms": 4000,
+          "movement": "THE INVITATION",
+          "kind": "credits",
+          "title": "Sources. Voices. Responsibility.",
+          "body": "Research: King Institute / Reagan Library / BioLogos\nRTÉ / ASAP Sports / eBible.org\nNo archival media or recorded voices appear in this animatic.\nOriginal motion design. Silence is intentional.\nComplete citations and unresolved rights: accompanying source ledger.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        }
+      ]
+    },
+    "vertical": {
+      "width": 1080,
+      "height": 1920,
+      "duration_ms": 60000,
+      "segments": [
+        {
+          "segment_id": "C01",
+          "start_ms": 0,
+          "duration_ms": 6000,
+          "movement": "THE QUESTION",
+          "kind": "card",
+          "title": "What is greatness?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "C02",
+          "start_ms": 6000,
+          "duration_ms": 6000,
+          "movement": "POWER",
+          "kind": "card",
+          "title": "Does influence\nsettle what is true?",
+          "body": "A person’s stature is not proof of a belief.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "columns"
+        },
+        {
+          "segment_id": "C03",
+          "start_ms": 12000,
+          "duration_ms": 6000,
+          "movement": "KNOWLEDGE",
+          "kind": "card",
+          "title": "Does explanation\nexhaust meaning?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "orbit"
+        },
+        {
+          "segment_id": "C04",
+          "start_ms": 18000,
+          "duration_ms": 6000,
+          "movement": "ART",
+          "kind": "card",
+          "title": "What do we do\nwith suffering?",
+          "body": "An objection deserves to be heard.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        },
+        {
+          "segment_id": "C05",
+          "start_ms": 24000,
+          "duration_ms": 6000,
+          "movement": "VICTORY",
+          "kind": "card",
+          "title": "Who are we\nwhen winning is over?",
+          "body": "",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "arena"
+        },
+        {
+          "segment_id": "C06",
+          "start_ms": 30000,
+          "duration_ms": 7000,
+          "movement": "THE REVERSAL",
+          "kind": "card",
+          "title": "What if greatness\nmoves toward the other?",
+          "body": "Original editorial question",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "steps"
+        },
+        {
+          "segment_id": "C07",
+          "start_ms": 37000,
+          "duration_ms": 11000,
+          "movement": "THE INVITATION",
+          "kind": "quote",
+          "title": "“But who do you\nsay that I am?”",
+          "body": "Mark 8:29a • World English Bible Classic\nJesus addressing his disciples; an excerpt from the verse.",
+          "clip_id": null,
+          "citation": "eBible.org • Mark 8 • public-domain text",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS",
+            "SCRIPTURE_WEB"
+          ],
+          "quote_asset_id": "SCRIPTURE_WEB",
+          "motif": "void"
+        },
+        {
+          "segment_id": "C08",
+          "start_ms": 48000,
+          "duration_ms": 7000,
+          "movement": "THE INVITATION",
+          "kind": "title",
+          "title": "THE QUESTION\nREMAINS.",
+          "body": "A work in progress",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "light"
+        },
+        {
+          "segment_id": "C09",
+          "start_ms": 55000,
+          "duration_ms": 5000,
+          "movement": "THE INVITATION",
+          "kind": "credits",
+          "title": "Sources. Voices. Responsibility.",
+          "body": "Research: King Institute / Reagan Library / BioLogos\nRTÉ / ASAP Sports / eBible.org\nNo archival media or recorded voices appear in this animatic.\nOriginal motion design. Silence is intentional.\nComplete citations and unresolved rights: accompanying source ledger.",
+          "clip_id": null,
+          "citation": "",
+          "asset_ids": [
+            "DESIGN",
+            "FONTS"
+          ],
+          "quote_asset_id": null,
+          "motif": "void"
+        }
+      ]
+    }
+  }
+}
