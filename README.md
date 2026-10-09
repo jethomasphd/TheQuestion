@@ -1,6 +1,21 @@
 # The Question That Remains
 
-A reproducible archival-documentary workbench and an 8:15 preproduction film, with 90-second and 60-second derivatives. Read [the brief](docs/FILM_BRIEF.md), [research](docs/source_research.md), [paper edit](docs/paper_edit.md) and [editorial report](docs/editorial_report.md).
+A cinematic documentary workbench with an assembled director's review cut, authentic archival recordings from eight speakers, original narration, six generated symbolic scenes, and three original instrumental score movements. The 90-second trailer and 60-second portrait cut are separately composed. Read [the production report](docs/director_cut_report.md), [the brief](docs/FILM_BRIEF.md), and [research](docs/source_research.md).
+
+The director's cut is a completed editorial assembly for review. Its permanent legend says **REVIEW CUT · RIGHTS PENDING**. The user's October 9 production approval authorizes acquisition and assembly; it does not establish broadcaster or estate licenses. Public release remains gated. Original source recordings, generated assets and alignment files stay local and out of Git.
+
+## Director's cut
+
+With the local assets and alignment files listed in the screening package's source manifest present:
+
+```sh
+python scripts/director_cut.py --output outputs/director_cut
+python scripts/director_derivatives.py --output outputs/director_cut --cut trailer
+python scripts/director_derivatives.py --output outputs/director_cut --cut vertical
+python scripts/package_director.py --output outputs/director_cut
+```
+
+The review renderer preserves archive aspect ratios, separates discontinuous quotations, identifies symbolic imagery, normalizes dialogue, ducks music under speech, and creates English captions. It measures the program before its final loudness pass. Packaging adds a 4K canvas upscale, visible captions on the short cuts, and an offline screening player. Run packaging once after fresh derivative builds to avoid burning captions twice. `render.py final` retains the shared release gate. Remove cached files in `work/production` before revising a scene. Local ASR assists alignment; known transcript errors are corrected in the caption build. Human listening review remains required.
 
 ## Build
 
@@ -16,7 +31,7 @@ python scripts/render.py animatic
 
 On macOS/Linux, `make animatic` is equivalent. Fonts are downloaded from the locked URLs only if absent and checked against recorded SHA-256 values; their OFL license texts are retained. No archival media is downloaded. Set FFMPEG and FFPROBE if the executables are not on PATH. Outputs are under `outputs/animatic/`. `--cut master|trailer|vertical` renders one cut; `--height 360` makes a quick draft.
 
-The full build is silent by design. Captions reproduce on-screen text and placeholder labels; they are not a transcript of unheard archival speech. Trailer and vertical captions are separate. A build manifest records inputs, fonts, toolchain and output checksums. Byte-for-byte movie identity requires the same fonts, pinned Python packages and FFmpeg build.
+The original animatic build is silent by design. Its captions reproduce on-screen text and placeholder labels. The director's cut described above adds actual recordings, narration, music, and spoken captions. Byte-for-byte movie identity requires the same fonts, Python packages and FFmpeg build.
 
 ## Workflows
 
@@ -34,7 +49,7 @@ Ingest writes a probe/checksum receipt; it deliberately does not set clip verifi
 
 All supplied archival records begin uncleared. `make final` validates all three cuts, every used asset and the human approval hash before rendering. Placeholders, stale hashes, missing evidence, unreviewed context and incomplete captions/listening checks stop the build. The approval record is a human attestation, not an identity-authentication system. The code does not grant approval and never publishes.
 
-Final packaging (once approved) creates `master_4k.mp4`, `master_1080p.mp4`, `trailer_90s.mp4`, `vertical_60s.mp4`, captions, transcript, source credits, EDL, rights report and manifest. Low-resolution originals remain pillarboxed/letterboxed without cropping; a 4K canvas does not make the source native 4K. Licensed music and still compositing are not implemented: the supported edit uses title cards and original source audio. Adding a score requires a new explicit asset/render path and release review.
+Final packaging (once approved) creates `master_4k.mp4`, `master_1080p.mp4`, `trailer_90s.mp4`, `vertical_60s.mp4`, captions, transcript, source credits, EDL, rights report and manifest. Low-resolution originals remain pillarboxed/letterboxed; a 4K canvas does not make the source native 4K. The director renderer adds original score and still compositing for review. Moving this cut to public release requires its own complete asset and editorial approval manifest.
 
 ## Tests and QA
 

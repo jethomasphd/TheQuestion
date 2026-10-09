@@ -1,0 +1,228 @@
+{
+  "score1": {
+    "kind": "audio",
+    "taskId": "69a278e3-be76-407d-be7d-8d7846dafa89",
+    "prompt": "Original cinematic documentary underscore, instrumental, no vocals, no choir. Intimate felt piano in D minor, quiet bowed cello harmonics, distant warm analog air. 58 BPM with long spacious rests. Begin almost inaudible, a searching three-note motif and slowly accumulating low strings. Restrained, questioning, humane, full-length 3-minute development with a soft unresolved ending. No bombastic trailer percussion, no pop beat, no imitation of any existing score. Designed beneath thoughtful spoken narration with plenty of midrange space.",
+    "meta": {
+      "durationSeconds": 175.725667
+    }
+  },
+  "score2": {
+    "kind": "audio",
+    "taskId": "93864688-8d21-4908-b12a-3c1f749a5456",
+    "prompt": "Original instrumental cinematic documentary score, no vocals, no choir. A fragile solo cello melody, sparse felt-piano notes, soft string harmonics and deep room ambience. Slow 54 BPM, unresolved minor suspended harmonies, sadness without sentimentality, quiet wonder, long silences between gestures. Full-length 3-minute arc, never overpowering narration, no drums, no triumphant resolution. Distinct original composition, no resemblance requested to any artist or known soundtrack.",
+    "meta": {
+      "durationSeconds": 172.22525
+    }
+  },
+  "score3": {
+    "kind": "audio",
+    "taskId": "ff980c70-5a14-4d59-bb14-986f6fbddd6e",
+    "prompt": "Original instrumental documentary closing score, no voices or choir. Warm piano and close-miked chamber strings, 60 BPM, a humble three-note motif growing from a single cello into luminous restrained ensemble. Movement from suspended minor harmony toward a gentle open fifth, tender rather than triumphant. Full-length 3-minute emotional arc about service and love. Very slow breathing pace, no drums, no grand Hollywood climax, finish by thinning to one piano note and silence. Leave space for speech.",
+    "meta": {
+      "durationSeconds": 177.057917
+    }
+  },
+  "threshold": {
+    "kind": "video",
+    "taskId": "0750fa08-5a90-4c3b-958f-6ca38e135afa",
+    "prompt": "Present-day symbolic cinematic scene, not historical footage. Wide locked-off view from the back of a vast empty auditorium after an event. Rows of empty seats fall into darkness; a single warm spotlight illuminates an unoccupied lectern far away. Slow, almost imperceptible dolly forward. Deep black, warm ivory, subtle amber. Elegant 35mm lens, rich natural texture, quiet dust in the beam. No people, no faces, no logos, no writing, no fake archival scratches. Contemplative opening of a serious documentary.",
+    "meta": {
+      "modelId": "seedance-2",
+      "modelLabel": "Seedance 2.0",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 10,
+      "hasAudio": false,
+      "aspectRatio": "16:9",
+      "resolution": "1080p"
+    }
+  },
+  "knowledge": {
+    "kind": "video",
+    "taskId": "d1851487-2276-4720-9f98-47b0dfe5e947",
+    "prompt": "Present-day symbolic cinematic scene, not a reconstruction of any real scientist or laboratory. Extreme close macro of a clear glass prism on a dark laboratory table, a narrow white light splits into a delicate spectrum. Rack focus slowly from etched glass edge to light on the table, gentle lateral camera drift. Moody practical lighting, deep charcoal, warm ivory with subtle spectral color, cinematic 100mm macro lens, realistic optical refraction. No people, no text, no logos.",
+    "meta": {
+      "modelId": "seedance-2",
+      "modelLabel": "Seedance 2.0",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 10,
+      "hasAudio": false,
+      "aspectRatio": "16:9",
+      "resolution": "1080p"
+    }
+  },
+  "victory": {
+    "kind": "video",
+    "taskId": "d6c89860-2a1e-43cc-9526-aa04943aee7b",
+    "prompt": "Present-day symbolic cinematic scene, no historical person or real sports event. View from a dark empty stadium tunnel toward an empty playing field at blue hour, stadium lamps shutting down gradually in the distance. Very slow centered camera push out of darkness, immense quiet space after the crowd has left. Museum-quality documentary cinematography, understated warm amber and cool slate, realistic concrete and grass, no people, no logos, no lettering.",
+    "meta": {
+      "modelId": "seedance-2",
+      "modelLabel": "Seedance 2.0",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 10,
+      "hasAudio": false,
+      "aspectRatio": "16:9",
+      "resolution": "1080p"
+    }
+  },
+  "service": {
+    "kind": "video",
+    "taskId": "8ea62067-0169-4155-a3f0-d8a01a8d5e9f",
+    "prompt": "Present-day symbolic scene, no famous people, no historical event. Intimate close-up of two ordinary adult volunteers' hands passing a simple ceramic bowl of soup across a worn wooden table to another adult's hands. Faces remain outside the frame. Natural modest room, warm window light, tiny steam, tactile shallow-focus cinematography, slow careful human gesture. No religious props, no text, no logos, no dramatic performance. Dignity and mutual care, never pity.",
+    "meta": {
+      "modelId": "seedance-2",
+      "modelLabel": "Seedance 2.0",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 10,
+      "hasAudio": false,
+      "aspectRatio": "16:9",
+      "resolution": "1080p"
+    }
+  },
+  "window": {
+    "kind": "video",
+    "taskId": "c1b5eb68-5663-4c63-987f-09111d88d996",
+    "prompt": "Present-day symbolic contemplative scene, not historical footage. An empty small church with rough plaster walls and simple wooden pews; a narrow tall window lets a single shaft of warm dawn light enter the otherwise dark room. Slow lateral dolly, dust drifting, no statues, no people, no lettering, no logos. Restrained art-house cinematography, rich black and warm ivory, natural light, quiet and spacious.",
+    "meta": {
+      "modelId": "seedance-2",
+      "modelLabel": "Seedance 2.0",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 10,
+      "hasAudio": false,
+      "aspectRatio": "16:9",
+      "resolution": "1080p"
+    }
+  },
+  "water": {
+    "kind": "video",
+    "taskId": "d1083ede-7548-4ca7-8fdf-78770f1c229e",
+    "prompt": "Original symbolic contemplative imagery, not an archival event. Extreme close-up of a dark still pool of water. One clear droplet falls, concentric ripples expand and gradually settle; soft window light makes a thin amber highlight along the circles. Locked macro camera, realistic fluid physics, deep blacks, beautiful spare composition with negative space to the left. No text, no symbols, no people. Slow quiet closing image.",
+    "meta": {
+      "modelId": "seedance-2",
+      "modelLabel": "Seedance 2.0",
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 10,
+      "hasAudio": false,
+      "aspectRatio": "16:9",
+      "resolution": "1080p"
+    }
+  },
+  "narr_doubt_in": {
+    "kind": "audio",
+    "taskId": "b21719ad-a462-410d-a91c-49f168bf63df",
+    "prompt": "The Question — doubt_in",
+    "meta": {
+      "durationSeconds": 9.705941
+    }
+  },
+  "narr_power_in": {
+    "kind": "audio",
+    "taskId": "428f5519-4843-4206-a7d4-2071f8469569",
+    "prompt": "The Question — power_in",
+    "meta": {
+      "durationSeconds": 13.606893
+    }
+  },
+  "narr_knowledge_out": {
+    "kind": "audio",
+    "taskId": "875b6f4a-5ad4-4ca1-bd74-581f1340ce28",
+    "prompt": "The Question — knowledge_out",
+    "meta": {
+      "durationSeconds": 15.928889
+    }
+  },
+  "narr_knowledge_in": {
+    "kind": "audio",
+    "taskId": "5f509b82-fcf1-43a7-960c-67d19355edaf",
+    "prompt": "The Question — knowledge_in",
+    "meta": {
+      "durationSeconds": 28.189025
+    }
+  },
+  "narr_reversal_in": {
+    "kind": "audio",
+    "taskId": "95fd7c57-4269-403e-8af8-f369f7c9ead5",
+    "prompt": "The Question — reversal_in",
+    "meta": {
+      "durationSeconds": 19.226122
+    }
+  },
+  "narr_victory_in": {
+    "kind": "audio",
+    "taskId": "9bb34971-cc88-4d7f-a308-a98d3cf6c665",
+    "prompt": "The Question — victory_in",
+    "meta": {
+      "durationSeconds": 17.275646
+    }
+  },
+  "narr_art_in": {
+    "kind": "audio",
+    "taskId": "4b8814d5-7f01-4e6c-ba97-db3ea8543a2b",
+    "prompt": "The Question — art_in",
+    "meta": {
+      "durationSeconds": 16.393288
+    }
+  },
+  "narr_victory_out": {
+    "kind": "audio",
+    "taskId": "103ead3d-23f2-4bae-aaa2-eac1a94857fc",
+    "prompt": "The Question — victory_out",
+    "meta": {
+      "durationSeconds": 13.699773
+    }
+  },
+  "narr_ending": {
+    "kind": "audio",
+    "taskId": "c38bf462-5bbb-417e-9f14-1a31b808124c",
+    "prompt": "The Question — ending",
+    "meta": {
+      "durationSeconds": 23.684354
+    }
+  },
+  "narr_opening": {
+    "kind": "audio",
+    "taskId": "d9f9b1fe-1c31-42f3-bf15-06edc9b23379",
+    "prompt": "The Question — opening",
+    "meta": {
+      "durationSeconds": 20.944399
+    }
+  },
+  "narr_power_out": {
+    "kind": "audio",
+    "taskId": "7ba2b4c6-b281-4727-bb61-f48ee14979fb",
+    "prompt": "The Question — power_out",
+    "meta": {
+      "durationSeconds": 13.606893
+    }
+  },
+  "narr_reversal_out": {
+    "kind": "audio",
+    "taskId": "8c9c4519-3128-4e53-b393-d6911d69f5c8",
+    "prompt": "The Question — reversal_out",
+    "meta": {
+      "durationSeconds": 18.947483
+    }
+  },
+  "narr_art_out": {
+    "kind": "audio",
+    "taskId": "8aa9ff79-8fc6-4aa7-b23b-96c3e6f64cab",
+    "prompt": "The Question — art_out",
+    "meta": {
+      "durationSeconds": 17.275646
+    }
+  },
+  "narr_doubt_out": {
+    "kind": "audio",
+    "taskId": "05bd03b6-812f-4d0c-b913-985ec6608da2",
+    "prompt": "The Question — doubt_out",
+    "meta": {
+      "durationSeconds": 18.111565
+    }
+  }
+}

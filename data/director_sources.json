@@ -1,0 +1,98 @@
+{
+  "reagan": {
+    "name": "Ronald Reagan",
+    "role": "U.S. president",
+    "event": "Christmas radio address",
+    "date": "24 DEC 1983",
+    "url": "https://www.youtube.com/watch?v=GT6xEAGA_nE",
+    "primary": "https://www.reaganlibrary.gov/archives/speech/radio-address-nation-christmas",
+    "kind": "christological_argument",
+    "rights": "public_domain_verified",
+    "owner": "U.S. government / Reagan Library",
+    "note": "Official Reagan Library upload identifies NARA record 74614571; use and access unrestricted."
+  },
+  "collins": {
+    "name": "Francis Collins",
+    "role": "Geneticist",
+    "event": "A Testimony · BioLogos",
+    "date": "2020",
+    "url": "https://www.youtube.com/watch?v=ncMbufrVyMQ",
+    "primary": "https://biologos.org/resources/francis-collins-a-testimony",
+    "kind": "explicit_jesus_testimony",
+    "rights": "legal_review_required",
+    "owner": "BioLogos / recording producer",
+    "note": "Official producer animation accompanying Collins’s authentic recorded testimony. This is not live action footage of his remembered experiences."
+  },
+  "fry": {
+    "name": "Stephen Fry",
+    "role": "Actor and writer",
+    "event": "The Meaning of Life · RTÉ",
+    "date": "2015",
+    "url": "https://www.youtube.com/watch?v=-suvkwNYSQo",
+    "primary": "https://www.rte.ie/archives/2020/0201/1110624-stephen-fry-the-meaning-of-life/",
+    "kind": "critical_questioning",
+    "rights": "legal_review_required",
+    "owner": "RTÉ",
+    "note": "Official RTÉ excerpt. Interviewer asks a hypothetical encounter with God. Fry objects to suffering; he is not responding to the other people in this film."
+  },
+  "carrey": {
+    "name": "Jim Carrey",
+    "role": "Actor",
+    "event": "Homeboy Industries",
+    "date": "2017",
+    "url": "https://www.youtube.com/watch?v=MzyaQ0H5D74",
+    "primary": "https://www.youtube.com/watch?v=MzyaQ0H5D74",
+    "kind": "christian_ethics",
+    "rights": "legal_review_required",
+    "owner": "Homeboy Industries / recording producer",
+    "note": "Official Homeboy upload. Addresses suffering, resentment, grace and forgiveness. No conversion claim. Year only: exact speech date is not independently settled."
+  },
+  "bono": {
+    "name": "Bono",
+    "role": "Musician",
+    "event": "The Meaning of Life · RTÉ",
+    "date": "2013",
+    "url": "https://www.youtube.com/watch?v=OZnsgvmTJmo",
+    "primary": "https://www.rte.ie/entertainment/2013/0618/457284-nothing-off-limits-in-bono-interview-gay-byrne/",
+    "kind": "explicit_jesus_testimony",
+    "rights": "legal_review_required",
+    "owner": "RTÉ",
+    "note": "Full interview carried by a third-party uploader. Gay Byrne’s question and Bono’s answers retained together. Broadcaster master and rights remain outstanding."
+  },
+  "curry": {
+    "name": "Stephen Curry",
+    "role": "Basketball player",
+    "event": "NBA Most Valuable Player speech",
+    "date": "2015",
+    "url": "https://www.youtube.com/watch?v=fvJl02AziO0",
+    "primary": "https://www.nba.com/warriors/videos/stephen-currys-2015-nba-mvp-campaign-was-special",
+    "kind": "explicit_jesus_testimony",
+    "rights": "legal_review_required",
+    "owner": "NBA / event broadcaster",
+    "note": "Full speech reposted by House Of Hoops. Source matched visually to 2015 MVP event. Broadcaster master and rights remain outstanding."
+  },
+  "king": {
+    "name": "Martin Luther King Jr.",
+    "role": "Minister and civil rights leader",
+    "event": "The Drum Major Instinct · Ebenezer Baptist Church",
+    "date": "4 FEB 1968",
+    "url": "https://www.youtube.com/watch?v=Mefbog-b4-4",
+    "primary": "https://kinginstitute.stanford.edu/drum-major-instinct",
+    "kind": "christian_ethics",
+    "rights": "legal_review_required",
+    "owner": "King Estate / recording rights holder",
+    "note": "IBW21 full sermon audio, matched to Stanford transcript. Archival audio is presented with original typography, never simulated speaking footage. Estate permission not established."
+  },
+  "obama": {
+    "name": "Barack Obama",
+    "role": "U.S. president",
+    "event": "Easter Prayer Breakfast",
+    "date": "7 APR 2015",
+    "url": "https://www.youtube.com/watch?v=Kw8iLnIbVDo",
+    "primary": "https://obamawhitehouse.archives.gov/photos-and-video/video/2015/04/07/president-and-vice-president-speak-easter-prayer-breakfast/",
+    "kind": "christian_ethics",
+    "rights": "public_domain_verified",
+    "owner": "U.S. government / White House",
+    "note": "Official archive explicitly labels the 11:22 video Public Domain. Two discontinuous passages are visibly separated by a dated transition card."
+  }
+}

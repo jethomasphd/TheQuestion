@@ -1,0 +1,440 @@
+[
+  {
+    "kind": "black",
+    "duration": 3.0,
+    "id": "000",
+    "start": 0
+  },
+  {
+    "kind": "narration",
+    "duration": 25.083333333333332,
+    "narration": "opening",
+    "backgrounds": [
+      "threshold",
+      "victory"
+    ],
+    "text": "When the applause ends, the room is still a room. The lights go out. The names on the walls remain. But the person goes home, carrying questions that achievement has not settled. What makes a life matter? What do we owe one another? And why does a voice from Galilee keep entering the conversation?",
+    "id": "001",
+    "start": 3.0
+  },
+  {
+    "kind": "card",
+    "duration": 8.0,
+    "title": "THE QUESTION\nTHAT REMAINS",
+    "subtitle": "A film about achievement, faith, doubt, and service",
+    "chapter": "",
+    "bg": "threshold",
+    "id": "002",
+    "start": 28.083333
+  },
+  {
+    "kind": "card",
+    "duration": 5.0,
+    "title": "Power",
+    "subtitle": "What can authority answer?",
+    "chapter": "01",
+    "bg": "threshold",
+    "id": "003",
+    "start": 36.083333
+  },
+  {
+    "kind": "narration",
+    "duration": 17.291666666666668,
+    "narration": "power_in",
+    "backgrounds": [
+      "still_reagan"
+    ],
+    "text": "Christmas Eve, nineteen eighty-three. An American president addresses the nation. Ronald Reagan names a distinction at the heart of Christianity: admiration for a teacher, and faith in something more.",
+    "id": "004",
+    "start": 41.083333
+  },
+  {
+    "kind": "archive",
+    "duration": 30.958333333333332,
+    "source": "reagan",
+    "excerpt": "reagan",
+    "source_in": 67.35,
+    "source_out": 98.3,
+    "id": "005",
+    "start": 58.375
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "threshold",
+    "id": "006",
+    "start": 89.333333
+  },
+  {
+    "kind": "narration",
+    "duration": 17.291666666666668,
+    "narration": "power_out",
+    "backgrounds": [
+      "threshold"
+    ],
+    "text": "A president's conviction is a personal conviction. Office cannot turn it into proof. The question survives the speaker's rank. It asks something of a life that power, by itself, cannot answer.",
+    "id": "007",
+    "start": 91.333333
+  },
+  {
+    "kind": "card",
+    "duration": 5.0,
+    "title": "Knowledge",
+    "subtitle": "A question thought closed",
+    "chapter": "02",
+    "bg": "knowledge",
+    "id": "008",
+    "start": 108.625
+  },
+  {
+    "kind": "narration",
+    "duration": 32.791666666666664,
+    "narration": "knowledge_in",
+    "backgrounds": [
+      "knowledge",
+      "still_collins"
+    ],
+    "text": "For geneticist Francis Collins, the journey began beside a patient. In his own account, her faith unsettled his assumptions. He began to examine a question he had considered closed. This is a scientist describing a personal search. The method of a laboratory and the act of religious belief remain different things. His testimony brings us to the point where that search became particular.",
+    "id": "009",
+    "start": 113.625
+  },
+  {
+    "kind": "archive",
+    "duration": 6.083333333333333,
+    "source": "collins",
+    "excerpt": "collins",
+    "source_in": 178.1,
+    "source_out": 184.16,
+    "id": "010",
+    "start": 146.416667
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "knowledge",
+    "id": "011",
+    "start": 152.5
+  },
+  {
+    "kind": "narration",
+    "duration": 19.75,
+    "narration": "knowledge_out",
+    "backgrounds": [
+      "window"
+    ],
+    "text": "He names a person. The Christian claim is that meaning can be encountered in a life: in words, actions, suffering, and the hope of resurrection. That claim invites examination. It also meets resistance.",
+    "id": "012",
+    "start": 154.5
+  },
+  {
+    "kind": "card",
+    "duration": 5.0,
+    "title": "The wound",
+    "subtitle": "The objection deserves to be heard",
+    "chapter": "03",
+    "bg": "water",
+    "id": "013",
+    "start": 174.25
+  },
+  {
+    "kind": "narration",
+    "duration": 13.166666666666666,
+    "narration": "doubt_in",
+    "backgrounds": [
+      "still_fry"
+    ],
+    "text": "In another interview, Stephen Fry is asked what he would say if confronted by God. His answer refuses consolation. He begins with the suffering of children.",
+    "id": "014",
+    "start": 179.25
+  },
+  {
+    "kind": "archive",
+    "duration": 5.166666666666667,
+    "source": "fry",
+    "excerpt": "fry",
+    "source_in": 26.4,
+    "source_out": 31.54,
+    "id": "015",
+    "start": 192.416667
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "water",
+    "id": "016",
+    "start": 197.583333
+  },
+  {
+    "kind": "black",
+    "duration": 3.0,
+    "id": "017",
+    "start": 199.583333
+  },
+  {
+    "kind": "narration",
+    "duration": 22.083333333333332,
+    "narration": "doubt_out",
+    "backgrounds": [
+      "water",
+      "threshold"
+    ],
+    "text": "The objection deserves more than an answering montage. No celebrated believer can make another person's suffering disappear. And no film can settle that argument by arranging faces on a screen. We can leave the wound visible. We can listen to what people do with it.",
+    "id": "018",
+    "start": 202.583333
+  },
+  {
+    "kind": "card",
+    "duration": 5.0,
+    "title": "Forgiveness",
+    "subtitle": "What do we do with suffering?",
+    "chapter": "04",
+    "bg": "service",
+    "id": "019",
+    "start": 224.666667
+  },
+  {
+    "kind": "narration",
+    "duration": 20.25,
+    "narration": "art_in",
+    "backgrounds": [
+      "service",
+      "still_carrey"
+    ],
+    "text": "At Homeboy Industries, Jim Carrey speaks about pain, resentment, and forgiveness. He draws on Christ's suffering to speak about grace, and the possibility of a life beyond resentment. His subject is the practice of forgiveness.",
+    "id": "020",
+    "start": 229.666667
+  },
+  {
+    "kind": "archive",
+    "duration": 8.458333333333334,
+    "source": "carrey",
+    "excerpt": "carrey",
+    "source_in": 185.4,
+    "source_out": 193.85,
+    "id": "021",
+    "start": 249.916667
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "service",
+    "id": "022",
+    "start": 258.375
+  },
+  {
+    "kind": "narration",
+    "duration": 21.208333333333332,
+    "narration": "art_out",
+    "backgrounds": [
+      "threshold",
+      "still_bono"
+    ],
+    "text": "In a separate conversation, Bono tells a different story. The language is explicitly a profession of faith. Asked about prayer, he makes his answer personal. These voices do not offer one interchangeable account. Each speaks from a particular life.",
+    "id": "023",
+    "start": 260.375
+  },
+  {
+    "kind": "archive",
+    "duration": 4.75,
+    "source": "bono",
+    "excerpt": "bono",
+    "source_in": 2363.73,
+    "source_out": 2368.48,
+    "id": "024",
+    "start": 281.583333
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "window",
+    "id": "025",
+    "start": 286.333333
+  },
+  {
+    "kind": "card",
+    "duration": 5.0,
+    "title": "Victory",
+    "subtitle": "What remains when the score is gone?",
+    "chapter": "05",
+    "bg": "victory",
+    "id": "026",
+    "start": 288.333333
+  },
+  {
+    "kind": "narration",
+    "duration": 21.208333333333332,
+    "narration": "victory_in",
+    "backgrounds": [
+      "victory",
+      "still_curry"
+    ],
+    "text": "Success has its own vocabulary: the score, the record, the award. At his twenty-fifteen Most Valuable Player speech, Stephen Curry begins by giving thanks. For a moment, the language of achievement opens onto a question of identity.",
+    "id": "027",
+    "start": 293.333333
+  },
+  {
+    "kind": "archive",
+    "duration": 8.833333333333334,
+    "source": "curry",
+    "excerpt": "curry",
+    "source_in": 24.8,
+    "source_out": 33.6,
+    "id": "028",
+    "start": 314.541667
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "victory",
+    "id": "029",
+    "start": 323.375
+  },
+  {
+    "kind": "narration",
+    "duration": 17.375,
+    "narration": "victory_out",
+    "backgrounds": [
+      "victory",
+      "threshold"
+    ],
+    "text": "Winning can describe what happened. It cannot contain everything a person is. And if worth depends on winning, what becomes of the injured, the forgotten, the person who never gets a place on the stage?",
+    "id": "030",
+    "start": 325.375
+  },
+  {
+    "kind": "card",
+    "duration": 5.0,
+    "title": "The reversal",
+    "subtitle": "Greatness through service",
+    "chapter": "06",
+    "bg": "service",
+    "id": "031",
+    "start": 342.75
+  },
+  {
+    "kind": "narration",
+    "duration": 23.291666666666668,
+    "narration": "reversal_in",
+    "backgrounds": [
+      "window",
+      "service"
+    ],
+    "text": "In February nineteen sixty-eight, Martin Luther King Junior preached about our hunger to be first. He called it the drum major instinct. His sermon turns toward Jesus, and toward a different measure of greatness. The desire to matter is redirected into service. The door is opened to everyone.",
+    "id": "032",
+    "start": 347.75
+  },
+  {
+    "kind": "archive",
+    "duration": 10.0,
+    "source": "king",
+    "excerpt": "king",
+    "source_in": 1792.56,
+    "source_out": 1802.55,
+    "id": "033",
+    "start": 371.041667
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "service",
+    "id": "034",
+    "start": 381.041667
+  },
+  {
+    "kind": "narration",
+    "duration": 22.958333333333332,
+    "narration": "reversal_out",
+    "backgrounds": [
+      "service",
+      "still_obama"
+    ],
+    "text": "Service brings the question down to earth. Whose hunger do we notice? Whose burden do we share? At an Easter prayer breakfast in twenty-fifteen, Barack Obama speaks about the example of Jesus, then about the distance between that example and his own life.",
+    "id": "035",
+    "start": 383.041667
+  },
+  {
+    "kind": "archive",
+    "duration": 32.458333333333336,
+    "source": "obama",
+    "excerpt": "obama",
+    "source_in": 552.65,
+    "source_out": 585.1,
+    "id": "036",
+    "start": 406.0
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "service",
+    "id": "037",
+    "start": 438.458333
+  },
+  {
+    "kind": "card",
+    "duration": 3.0,
+    "title": "Later in the same address",
+    "subtitle": "Easter Prayer Breakfast · 7 April 2015",
+    "chapter": "",
+    "bg": "window",
+    "id": "038",
+    "start": 440.458333
+  },
+  {
+    "kind": "archive",
+    "duration": 12.416666666666666,
+    "source": "obama",
+    "excerpt": "obama_end",
+    "source_in": 649.65,
+    "source_out": 662.05,
+    "id": "039",
+    "start": 443.458333
+  },
+  {
+    "kind": "breath",
+    "duration": 2.0,
+    "bg": "window",
+    "id": "040",
+    "start": 455.875
+  },
+  {
+    "kind": "narration",
+    "duration": 28.0,
+    "narration": "ending",
+    "backgrounds": [
+      "service",
+      "water",
+      "window"
+    ],
+    "text": "The voices end. The work remains. A meal. An act of forgiveness. The courage to hear a difficult question without turning away. Belief and doubt have not become the same thing. Yet the invitation to examine a life is still here. Beyond the titles, beyond the applause, the question becomes our own.",
+    "id": "041",
+    "start": 457.875
+  },
+  {
+    "kind": "card",
+    "duration": 14.0,
+    "title": "“But who do you say\nthat I am?”",
+    "subtitle": "Mark 8:29a · World English Bible Classic\nJesus addressing his disciples; an excerpt from the verse.",
+    "chapter": "",
+    "bg": "black",
+    "id": "042",
+    "start": 485.875
+  },
+  {
+    "kind": "card",
+    "duration": 8.0,
+    "title": "THE QUESTION REMAINS.",
+    "subtitle": "",
+    "chapter": "",
+    "bg": "black",
+    "id": "043",
+    "start": 499.875
+  },
+  {
+    "kind": "credits",
+    "duration": 20.0,
+    "title": "The voices / the question",
+    "subtitle": "",
+    "id": "044",
+    "start": 507.875
+  }
+]
