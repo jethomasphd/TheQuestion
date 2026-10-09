@@ -1,0 +1,380 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "fps",
+    "audio",
+    "cuts"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "fps": {
+      "enum": [
+        24
+      ]
+    },
+    "audio": {
+      "enum": [
+        "intentional_silence",
+        "source_audio"
+      ]
+    },
+    "cuts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "master",
+        "trailer",
+        "vertical"
+      ],
+      "properties": {
+        "master": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "width",
+            "height",
+            "duration_ms",
+            "segments"
+          ],
+          "properties": {
+            "width": {
+              "type": "integer",
+              "minimum": 2
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 2
+            },
+            "duration_ms": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "segments": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "segment_id",
+                  "start_ms",
+                  "duration_ms",
+                  "movement",
+                  "kind",
+                  "title",
+                  "body",
+                  "clip_id",
+                  "citation",
+                  "asset_ids",
+                  "quote_asset_id",
+                  "motif"
+                ],
+                "properties": {
+                  "segment_id": {
+                    "type": "string"
+                  },
+                  "start_ms": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "duration_ms": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "movement": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "silence",
+                      "card",
+                      "title",
+                      "chapter",
+                      "placeholder",
+                      "clip",
+                      "quote",
+                      "credits"
+                    ]
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  },
+                  "clip_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "citation": {
+                    "type": "string"
+                  },
+                  "asset_ids": {
+                    "type": "array",
+                    "minItems": 2,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "quote_asset_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "motif": {
+                    "enum": [
+                      "void",
+                      "orbit",
+                      "columns",
+                      "light",
+                      "ripple",
+                      "arena",
+                      "steps"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "trailer": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "width",
+            "height",
+            "duration_ms",
+            "segments"
+          ],
+          "properties": {
+            "width": {
+              "type": "integer",
+              "minimum": 2
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 2
+            },
+            "duration_ms": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "segments": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "segment_id",
+                  "start_ms",
+                  "duration_ms",
+                  "movement",
+                  "kind",
+                  "title",
+                  "body",
+                  "clip_id",
+                  "citation",
+                  "asset_ids",
+                  "quote_asset_id",
+                  "motif"
+                ],
+                "properties": {
+                  "segment_id": {
+                    "type": "string"
+                  },
+                  "start_ms": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "duration_ms": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "movement": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "silence",
+                      "card",
+                      "title",
+                      "chapter",
+                      "placeholder",
+                      "clip",
+                      "quote",
+                      "credits"
+                    ]
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  },
+                  "clip_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "citation": {
+                    "type": "string"
+                  },
+                  "asset_ids": {
+                    "type": "array",
+                    "minItems": 2,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "quote_asset_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "motif": {
+                    "enum": [
+                      "void",
+                      "orbit",
+                      "columns",
+                      "light",
+                      "ripple",
+                      "arena",
+                      "steps"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "vertical": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "width",
+            "height",
+            "duration_ms",
+            "segments"
+          ],
+          "properties": {
+            "width": {
+              "type": "integer",
+              "minimum": 2
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 2
+            },
+            "duration_ms": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "segments": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "segment_id",
+                  "start_ms",
+                  "duration_ms",
+                  "movement",
+                  "kind",
+                  "title",
+                  "body",
+                  "clip_id",
+                  "citation",
+                  "asset_ids",
+                  "quote_asset_id",
+                  "motif"
+                ],
+                "properties": {
+                  "segment_id": {
+                    "type": "string"
+                  },
+                  "start_ms": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "duration_ms": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "movement": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "silence",
+                      "card",
+                      "title",
+                      "chapter",
+                      "placeholder",
+                      "clip",
+                      "quote",
+                      "credits"
+                    ]
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  },
+                  "clip_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "citation": {
+                    "type": "string"
+                  },
+                  "asset_ids": {
+                    "type": "array",
+                    "minItems": 2,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "quote_asset_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "motif": {
+                    "enum": [
+                      "void",
+                      "orbit",
+                      "columns",
+                      "light",
+                      "ripple",
+                      "arena",
+                      "steps"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

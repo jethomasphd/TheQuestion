@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "asset_id",
+      "kind",
+      "status",
+      "rights_owner",
+      "evidence_path",
+      "evidence_sha256",
+      "media_path",
+      "media_sha256",
+      "reviewer",
+      "context_approved",
+      "publish_approved",
+      "contact",
+      "notes"
+    ],
+    "properties": {
+      "asset_id": {
+        "type": "string"
+      },
+      "kind": {
+        "enum": [
+          "archive",
+          "original_design",
+          "font",
+          "quotation",
+          "music",
+          "still"
+        ]
+      },
+      "status": {
+        "enum": [
+          "unknown",
+          "permission_requested",
+          "cleared",
+          "public_domain_verified",
+          "legal_review_required",
+          "rejected"
+        ]
+      },
+      "rights_owner": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "evidence_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "evidence_sha256": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "media_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "media_sha256": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reviewer": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "context_approved": {
+        "type": "boolean"
+      },
+      "publish_approved": {
+        "type": "boolean"
+      },
+      "contact": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}

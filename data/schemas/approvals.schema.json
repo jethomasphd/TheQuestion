@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "publication_approved",
+    "approver_role",
+    "approver",
+    "approved_at",
+    "input_sha256",
+    "evidence_path",
+    "checks"
+  ],
+  "properties": {
+    "publication_approved": {
+      "type": "boolean"
+    },
+    "approver_role": {
+      "enum": [
+        null,
+        "human"
+      ]
+    },
+    "approver": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "input_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "paper_edit",
+        "interpretations",
+        "scripture_translation",
+        "credits",
+        "final_cut",
+        "captions",
+        "listening",
+        "audio_measurements",
+        "visual_qc"
+      ],
+      "properties": {
+        "title": {
+          "type": "boolean"
+        },
+        "paper_edit": {
+          "type": "boolean"
+        },
+        "interpretations": {
+          "type": "boolean"
+        },
+        "scripture_translation": {
+          "type": "boolean"
+        },
+        "credits": {
+          "type": "boolean"
+        },
+        "final_cut": {
+          "type": "boolean"
+        },
+        "captions": {
+          "type": "boolean"
+        },
+        "listening": {
+          "type": "boolean"
+        },
+        "audio_measurements": {
+          "type": "boolean"
+        },
+        "visual_qc": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
