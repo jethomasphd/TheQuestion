@@ -214,6 +214,7 @@ def make_captions(scenes,out):
   for x in words:
    if name=='king' and x['word'].strip().lower() in ('say','save'):x['word']=' serve.'
    if name=='obama' and x['word'].strip()=='looked?':x['word']=' loved?'
+   if name=='reagan' and 95<=x['start']<98 and x['word'].strip()=='is':x['word']=' as'
    if name=='carrey' and x['word'].strip()=='You':x['word']=" You've"
    if name.startswith('narr_'):
     x['word']=x['word'].replace('Frye','Fry').replace("Who's",'Whose')
